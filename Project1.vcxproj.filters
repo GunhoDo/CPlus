@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{b81f9cc7-7e9e-4309-9551-8fc2e89add97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\LinkedList">
+      <UniqueIdentifier>{3382cf2e-ea4e-4335-b98f-0e27fe166a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\Arr">
+      <UniqueIdentifier>{96e9a079-bcbf-4dbb-acc2-6b504392bee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\BST">
+      <UniqueIdentifier>{6000c2af-616c-484a-9b54-9bb3c17daecc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>DataStructure\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Arr.cpp">
+      <Filter>DataStructure\Arr</Filter>
+    </ClCompile>
+    <ClCompile Include="OperaterTemplate.cpp" />
+    <ClCompile Include="CanArrSort.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="MyOstream.cpp" />
+    <ClCompile Include="myVectorList.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructure\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Arr.h">
+      <Filter>DataStructure\Arr</Filter>
+    </ClInclude>
+    <ClInclude Include="CArr.h">
+      <Filter>DataStructure\Arr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLInkedList.h">
+      <Filter>DataStructure\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CList.h">
+      <Filter>DataStructure\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CBST.h">
+      <Filter>DataStructure\BST</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
